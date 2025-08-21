@@ -1,0 +1,43 @@
+
+
+@import url('http://fonts.googleapis.com/css?family=Exo+2|Yatra+one');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif ;
+}   
+body{
+    content: rgb(65, 65, 138);
+}
+.wrapper{
+    margin-top:60% ;
+    text-align: center;
+}
+.wrapper h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    color: #51109c;
+    margin-bottom: 25px;
+}
+.wrapper .our_team{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.wrapper .our_team .team_member{
+    width: 25;
+    margin: 5px;
+    background: #fff;
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+

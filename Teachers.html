@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" class="hre">
+    <title>Student Management System - Home</title>
+</head>
+<body>
+      
+        <div class="container">
+            <h1>Welcome to Student Management System</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+               
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="Student.html">Students</a></li>
+                <li><a href="Teachers.html">Teachars</a></li>
+                <li><a href="Sports.html">Sports</a></li>
+                <li><a href="Team.html">Team</a></li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+    
+    <!--Start Table-->
+     <div class="Page-Table">
+        <CENTER><h2>techars Records</h2></CENTER>
+    <!--Table-->
+    <table>
+        <!--Row-1-->
+        <tr>
+            <!--Column-1-->
+            <td>
+                <!--Form-->
+                <form class="form-1" onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                	<h3>techars Form</h3>
+                  <!--div-1-->
+                    <div>
+                        <label>first Name</label>
+                        <!--Validation Error-->
+                        <label class="validation-error hide" id="userNamevalidationError">This field is required</label>
+                        <!--Input User Name-->
+                        <input type="text" name="userName" id="userName" placeholder="Enter the first Name">
+                    </div>
+                    <!--div-2-->
+                    <div>
+                        <label>Last Name</label>
+                        <!--Validation Error-->
+                        <label class="validation-error hide" id="rollNovalidationError" >This field is required</label>
+                        <!--Input Roll No-->
+                        <input type="text" name="userName" id="userName" placeholder="Enter the Last Name">
+                    </div>
+                    <!--div-3-->
+                    <div>
+                        <label>NIC Number</label>
+                        
+                        <!--Validation Error-->
+                        <label class="validation-error hide" id="stdClassvalidationError">This field is required</label>
+                       <!--Input Student Class-->
+                        <input type="text" name="rollNo" id="rollNo" placeholder="Enter the NIC Number">
+                    </div>
+                    <!--div-4-->
+                    <div>
+                        <label>Total Subject</label>
+                        <!--Validation Error-->
+                        <label class="validation-error hide" id="tsubvalidationError">This field is required</label>
+                        <!--Input Total Subject-->
+                        <input type="number" name="tsub" id="tsub" placeholder="Enter the Total Subjects">
+                    </div>
+                    <!--div-5-->
+                    <div>
+                        <label>Age</label>
+                        <!--Validation Error-->
+                        <label class="validation-error hide" id="agevalidationError">This field is required</label>
+                        <!--Input Age-->
+                        <input type="number" name="age" id="age" placeholder="Enter the Age">
+                    </div>
+                    <!--div-6-->
+                    <div>
+                        <label>address</label>
+                        <!--Validation Error-->
+                        <label class="validation-error hide" id="agevalidationError">This field is required</label>
+                        <!--Input Age-->
+                        <input type="text" name="age" id="age" placeholder="Enter the address">
+                    </div>
+                    
+                    <!--div-7-->
+                    <div class="form-action-buttons">
+                        <!--Input Button-->
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <!--Column-2-->
+            <td>
+                <!--Nested Table-->
+                <table class="list" id="stdlist" style="background-color: #36b48e;">
+                    <!--Table Head-->
+                    <thead>
+                        <!--Row-2-->
+                        <tr>
+                            <th>First Name</th>
+                            <th>last name</th>
+                            <th>NIC Number</th>
+                            <th> subject </th>
+                            <th>Age</th>
+                            <th>address</th>
+                            
+                        </tr>
+                    </thead>
+                    <!--Table Body-->
+                    <tbody>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- JS File-->
+    <script src="JS/script.js"></script>
+     </div>
+
+    <!--End Table-->
+
+
+   
+   
+
+    
+
+    <!--Start Fooder-->
+
+    <footer>
+        <div class="container">
+            <p>2023 Student Management System</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+    <meta charset="UTF-8">
